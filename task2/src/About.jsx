@@ -1,7 +1,8 @@
+import "./App.css"
 function About(){
     return(
         <>
-        <h1>This is About page </h1>
+        <h1 className="Head1">This is About page </h1>
         </>
     )
 }

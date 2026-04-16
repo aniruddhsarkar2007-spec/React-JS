@@ -1,7 +1,8 @@
+import "./contact.jsx"
 function Contact(){
     return(
         <>
-        <h1>This is Contact page </h1>
+        <h1 className="cont">This is Contact page </h1>
         </>
     )
 }

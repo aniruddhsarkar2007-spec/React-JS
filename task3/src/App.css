@@ -1,0 +1,23 @@
+.navbar{
+    display: flex;
+    background-color: rgb(255, 45, 45);
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    font-size: 30px;
+    gap:140px  
+    
+}
+
+.hii{
+  background-image: url(im11.webp);
+  height: 500px;
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
