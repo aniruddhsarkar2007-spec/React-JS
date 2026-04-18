@@ -1,3 +1,4 @@
+import reactimg from "./assets/react.svg"
 function Cont()
 {
     let mystyle ={
@@ -12,6 +13,8 @@ function Cont()
         <h1 style={{backgroundColor:"brown",color:"white",padding:"20px"}}>Aniruddh</h1>
        
         <h2 style={mystyle}>Do your Own thing</h2>
+
+        <img src={reactimg} alt="" />
 
         </>
     )

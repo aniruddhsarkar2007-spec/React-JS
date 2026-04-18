@@ -25,9 +25,11 @@ function Task()
     <div className='hii'></div>
  </nav>
 
+ <img src="favicon.svg" alt="" />
+
  <Cont/>
  <Gallery/>
-  <Gallery1/>
+  <Gallery1 />
  </>
   )
  
