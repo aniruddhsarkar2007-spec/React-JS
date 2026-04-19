@@ -1,0 +1,22 @@
+.Navbar{
+  display: flex;
+  background-color: rgb(183, 109, 252);
+}
+
+.hii{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  font-size: 30px;
+  gap: 90px;
+  padding-left: 250px;
+  font-style: italic;
+}
+
+.web{
+  text-transform: capitalize;
+  padding-left: 50px;
+  font-style: italic;
+  font-size: 40px;
+}
