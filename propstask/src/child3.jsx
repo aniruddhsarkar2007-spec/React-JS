@@ -1,9 +1,11 @@
-function Child3()
+function Child3(p)
 {
     return(
         <>
-        <h1>meowwwww</h1>
+        <h1>This is third page -{p.data}</h1>
         </>
     )
 }
 export default Child3
+
+//props drilling
