@@ -1,5 +1,7 @@
 import { useState } from "react"
 import Home from "./home"
+import Contact from "./contact"
+import Img from "./imgtask"
 
 
 
@@ -26,6 +28,14 @@ function App()
     setColor("pink")
   }
 
+   function green()
+  {
+    setColor("green")
+  }
+
+  
+
+
   return(
     <>
     <div style={{backgroundColor:color}}>
@@ -36,12 +46,16 @@ function App()
     <inc/>
     <decc/>
     <button onClick={red}>Red</button>
-      <button onClick={blue}>Blue</button>
-        <button onClick={pink}>Pink</button>
-          <button>Green</button>
+    <button onClick={blue}>Blue</button>
+    <button onClick={pink}>Pink</button>
+    <button onClick={green}>Green</button>
+    <button onClick={()=>setColor('black')}>black</button>
     </div>
+    <Contact/>
+    <br /><br />
+    <Img/>
     </>
   )
 }
 
-export default App  
+export default App   
