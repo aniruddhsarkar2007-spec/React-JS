@@ -1,4 +1,5 @@
 import { useState } from "react"
+import Img from "./imgtask"
 
 function App(){
 
@@ -23,6 +24,7 @@ function App(){
     <button>Blue</button>
     <button>Green</button>
     </div>
+    <Img/>
 
 
     </>
