@@ -1,5 +1,6 @@
 // import image from "./img.png"
 import './App.css'
+import "./img12.jsx"
 function Mprc(){
   return(
     <>
@@ -15,9 +16,7 @@ function Mprc(){
         </ul>
       </div>
     </nav>
-
-    <img src="img2.png" alt="" />
-    {/* <img src={img.png} alt="" /> */}
+    <Img/>
     </>
   )
 }
