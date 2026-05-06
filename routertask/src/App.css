@@ -1,0 +1,40 @@
+nav{
+    display: flex;
+    background-color: rgb(20, 130, 220);
+}
+li{
+    list-style: none;
+}
+
+ul{
+    display: flex;
+    gap: 80px;
+    font-size: 29px;
+    padding-left: 200px;
+}
+
+.hii{
+    font-size: 40px;
+    padding-left: 30px;
+}
+.home
+{
+    text-decoration: none;
+    color: white;
+}
+
+.about
+{
+    text-decoration: none;
+    color: white;
+}
+.contact
+{
+    text-decoration: none;
+    color: white;
+}
+.join
+{
+    text-decoration: none;
+    color: white;
+}
