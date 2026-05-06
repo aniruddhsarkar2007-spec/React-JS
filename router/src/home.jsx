@@ -2,7 +2,7 @@ function Home()
 {
   return(
     <>
-     <h1>This is Homepage</h1>
+     <h1>This is Home page</h1>
     </>
   )
 }

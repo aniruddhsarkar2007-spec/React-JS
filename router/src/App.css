@@ -1,0 +1,44 @@
+nav{
+    display: flex;
+    background-color: rgb(255, 94, 0);
+}
+.hi{
+   font-size: 30px;
+}
+li{
+    list-style: none;
+}
+.home{
+   text-decoration: none;
+   color: black;
+}
+ul{
+    display: flex;
+    gap: 180px;
+    font-size: 24px;
+    padding-left: 300px;
+}
+
+.contact{
+   text-decoration: none;
+   color: black;
+}
+.about{
+   text-decoration: none;
+   color: black;
+}
+
+.hiiii{
+     text-decoration: none;
+   color: black;
+}
+
+
+.hwl{
+     text-decoration: none;
+   color: black;
+}
+
+.cont{
+    color: brown;
+}
